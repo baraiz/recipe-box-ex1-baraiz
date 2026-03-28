@@ -1,0 +1,12 @@
+### Create our first recipe
+POST http://127.0.0.1:8000/recipes
+Content-Type: application/json
+
+{
+  "title": "Banana and Chocolate Chip Cake",
+  "prep_time": 45,
+  "category": "cakes"
+}
+
+### Get all recipes
+GET http://127.0.0.1:8000/recipes
